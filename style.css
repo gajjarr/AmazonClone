@@ -85,10 +85,46 @@
     color: #0f1111;
 }
 
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
 span{
     font-size: 0.7rem;
 }
 
 .nav-sec{
     font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+}
+
+.panel-ops {
+    width: 70;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
 }
